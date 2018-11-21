@@ -9,6 +9,18 @@
     "require-dev": {
         "phpunit/phpunit": "^7.4"
     },
+    "autoload": {
+        "psr-4": {
+            "Ydalbj\\Bos\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ydalbj\\Bos\\BosServiceProvider"
+            ]
+        }
+    },
     "license": "MIT",
     "authors": [
         {
