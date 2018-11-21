@@ -1,0 +1,19 @@
+{
+    "name": "ydalbj/laravel-bos",
+    "description": "Laravel file system service provider for Baidu BOS storage",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^5.7",
+        "ydalbj/flysystem-bos": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liuhui",
+            "email": "liuhuidut@sina.com"
+        }
+    ]
+}
