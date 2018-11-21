@@ -9,9 +9,9 @@ $ composer require ydalbj/laravel-bos
 
 ## Configuration
 
-Edit `config\filesystems.php`
+### Add bos configuration 
 
-Add bos configuration
+* Edit `config\filesystems.php`
 ```php
     'disks' => [
 
@@ -29,4 +29,14 @@ Add bos configuration
             ]
         ]
     ]
+```
+
+### Define environment variables
+
+* Edit `.env`
+```php
+BOS_BUCKET=your bucket
+BOS_KEY=your bos access key id
+BOS_SECRET=your bos secret key id
+BOS_ENDPOINT=your bos endpoint
 ```
